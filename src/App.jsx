@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Canvas } from "@react-three/fiber";
 import WelcomePage from './components/WelcomePage';
-import SignUpForm from './components/SignUpform';
-import SignInForm from './components/SignInform';
+import SignUpForm from './components/SignUpForm';
+import SignInForm from './components/SignInForm';
 
 import { Experience } from './components/Experience';
 

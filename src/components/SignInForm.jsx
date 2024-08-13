@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './SignUpForm.css'; // Import the CSS file
+import './SignUpForm.css'; 
 
 function SignInForm() {
   const navigate = useNavigate();
@@ -19,9 +19,7 @@ function SignInForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform form submission logic here, e.g., API call
     console.log('Form submitted:', formData);
-    // Navigate to /Avatar route
     navigate('/Avatar');
   };
 
